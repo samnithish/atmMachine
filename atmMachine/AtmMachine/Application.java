@@ -15,7 +15,7 @@ public class Application {
 	public static void atm() {
 		try {
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atmDatabase", "root",
-					"Sam*16052001");
+					"password");
 			Statement stmt = con.createStatement();
 			Scanner s = new Scanner(System.in);
 			while (true) {
@@ -86,7 +86,7 @@ public class Application {
 
 					else {
 						System.out.println(
-								"Sorry! you Are not a Registered User.. Please Rgister as a new User... ThankYou !");
+								"Sorry! you Are not a Registered User.. Please Register as a new User... ThankYou !");
 					}
 					break;
 
