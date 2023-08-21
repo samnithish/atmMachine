@@ -29,7 +29,7 @@ public class newUser {
 	newUser() {
 
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atmDatabase", "root", "Sam*16052001");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atmDatabase", "root", "password");
 			stmt = con.createStatement();
 			System.out.println("Server Connected");
 		} catch (Exception e) {
