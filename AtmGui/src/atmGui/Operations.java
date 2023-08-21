@@ -28,7 +28,7 @@ public class Operations {
 
 
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atmDatabase", "root", "Sam*16052001");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atmDatabase", "root", "password");
 			stmt = con.createStatement();
 		} catch (SQLException e) {
 			System.out.println("Database Not Connected");
