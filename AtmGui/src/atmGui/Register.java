@@ -32,7 +32,7 @@ public class Register {
 	Register() {
 
 		try {
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atmDatabase", "root", "Sam*16052001");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/atmDatabase", "root", "Password");
 			stmt = con.createStatement();
 		} catch (Exception e) {
 			System.out.println("Server not connected...");
